@@ -38,7 +38,26 @@ As it makes sense to you please write the following in JSON format:
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+{
+  "jason" : {
+    "cat" : "Mr. Kitty",
+    "Roomates": {
+      "first": "Dave",
+      "second": "Miller"
+    },
+    "love":{
+      "loveOne": "Red Sox",
+      "loveTwo": "Patriots",
+      "loveThree":"Bruins"
+    },
+    "places": {
+      "firstPlace": "123 Fake street",
+      "secondPlace": "2 Muchinfo Road"
+    }
+
+  }
+
+}
 ```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,7 +65,30 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+{
+  "jason" : {
+    "cat" : "Mr. Kitty",
+    "Roomates": {
+      "first": "Dave",
+      "second": "Miller"
+    },
+    "Dave's fishes":{
+      "redFishName": "Bob",
+      "yellowFishName":"Dave"
+    },
+    "love":{
+      "loveOne": "Red Sox",
+      "loveTwo": "Patriots",
+      "loveThree":"Bruins"
+    },
+    "places": {
+      "firstPlace": "123 Fake street",
+      "secondPlace": "2 Muchinfo Road"
+    }
+
+  }
+
+}
 ```
 
 ## JSON Methods
@@ -54,7 +96,7 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+No you can't write method on JSON because it is not JS file or it is not an object.
 ```
 
 ## JSON Comments
@@ -62,5 +104,5 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+You can't write comments on JSON. JSON is a raq data and comments that are included will be accepted as data too.
 ```
